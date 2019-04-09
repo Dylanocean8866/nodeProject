@@ -4,10 +4,19 @@ var gc = require('./config');
 var fs = require('fs');
 var loader = require('./loader');
 var log = require('./log');
+var filterSet = require("./filterLoader");
 
 http.createServer((request,response)=>{
     var urlbj =  url.parse(request.url,true);
     log(urlbj)
+    for(var i = 0; i <filterSet.length; i++){
+        var flag = filterSet[i](request,response);
+        if(!flag){
+            console.log(urlbj.pathname +"拦截");
+            return;
+        }
+        console.log(urlbj.pathname +"放行");
+    }
     var isStatic = isStaticRequest(urlbj.pathname);
     if(isStatic){   
         try{
