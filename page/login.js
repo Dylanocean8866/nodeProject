@@ -42,7 +42,8 @@ window.onload = () =>{
         var sNum = document.getElementById('stuNum').value;
         var sPwd = document.getElementById('pwd').value;
         // console.log(sNum,sPwd);
-        var param = "sNum="+sNum+"&sPwd="+sPwd+"";
+        // var param = "sNum="+sNum+"&sPwd="+sPwd+"";
+        var param = JSON.stringify({sNum,sPwd});
         getAjax('POST','/login',param,(data)=>{
            if(JSON.parse(data)[0]){
                alert('success')

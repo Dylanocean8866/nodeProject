@@ -7,14 +7,16 @@ function getData(request,response){
         response.write(JSON.stringify(data));
         response.end();
     });
-
 }
 function login(request,response){
-   var queryData = url.parse(request.url,true).query;
-   var loginData = studentService.login(queryData.sNum,queryData.sPwd,(data)=>{
-       response.writeHead(200);
-       response.write(JSON.stringify(data));
-       response.end();
+   // var queryData = url.parse(request.url,true).query;
+   request.on("data",(data)=>{
+       var paramData = JSON.parse(data)
+       studentService.login(paramData.sNum,paramData.sPwd,(data)=>{
+           response.writeHead(200);
+           response.write(JSON.stringify(data));
+           response.end();
+       })
    })
 }
 path.set('/getData',getData)
