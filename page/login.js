@@ -19,7 +19,6 @@ window.onload = () =>{
                 callback(xhr.responseText);
             }
         }
-    
     }
     // function showData(data){
     //     var curData = JSON.parse(data);
@@ -45,12 +44,14 @@ window.onload = () =>{
         // var param = "sNum="+sNum+"&sPwd="+sPwd+"";
         var param = JSON.stringify({sNum,sPwd});
         getAjax('POST','/login',param,(data)=>{
+            console.log(data)
            if(JSON.parse(data)[0]){
                alert('success')
+               location.href = "main.html";
            }else{
                alert('faild')
            }
         })
-    }  
+    }
 
 }

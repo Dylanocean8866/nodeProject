@@ -34,7 +34,6 @@ function login(stuNum,pwd,success){
     connection.query(querySql,[stuNum,pwd],function(error,result){
         if(error!="null"){
             success(result);
-            
         }else{
             console.log(error);
         }
