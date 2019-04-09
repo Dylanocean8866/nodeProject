@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770e4565-6ee6-4482-9784-d1c79450abd1" name="Default Changelist" comment="change post way">
-      <change afterPath="$PROJECT_DIR$/page/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/studentDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/studentDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/loginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -42,10 +36,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loginController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="-73">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/server.log">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -86,8 +85,9 @@
         <option value="$PROJECT_DIR$/page/main.html" />
         <option value="$PROJECT_DIR$/dao/studentDao.js" />
         <option value="$PROJECT_DIR$/page/login.js" />
-        <option value="$PROJECT_DIR$/web/loginController.js" />
         <option value="$PROJECT_DIR$/page/login.html" />
+        <option value="$PROJECT_DIR$/web/loginController.js" />
+        <option value="$PROJECT_DIR$/log/server.log" />
       </list>
     </option>
   </component>
@@ -117,6 +117,11 @@
             <path>
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
@@ -173,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554718357292</updated>
-      <workItem from="1554718358708" duration="9832000" />
+      <workItem from="1554718358708" duration="10378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9832000" />
+    <option name="totallyTimeSpent" value="10378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,12 +200,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26680782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26680782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" weight="0.32915717" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32915717" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.22779043" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.60364467" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32915717" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,19 +228,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change post way" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/loginController.js</url>
-          <line>28</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
         <watch expression="paramData" language="JavaScript" />
+        <watch expression="paramData" />
       </configuration>
     </watches-manager>
   </component>
@@ -337,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -353,10 +342,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/server.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
