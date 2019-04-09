@@ -19,6 +19,7 @@ window.onload = () =>{
                 callback(xhr.responseText);
             }
         }
+
     }
     // function showData(data){
     //     var curData = JSON.parse(data);
@@ -50,6 +51,7 @@ window.onload = () =>{
                location.href = "main.html";
            }else{
                alert('faild')
+               location.href = "error.html";
            }
         })
     }
